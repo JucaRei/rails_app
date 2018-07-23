@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95623e2c-8534-40b7-9da8-6982c0dc46e8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/alpha-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alpha-blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +28,28 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails alpha-blog: development" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails alpha-blog: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails alpha-blog: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails alpha-blog: development" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -37,7 +57,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="126">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
@@ -46,8 +66,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            <state relative-caret-position="152">
+              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -55,7 +75,7 @@
       <file leaf-file-name="boot.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/boot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="84">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
@@ -123,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,15 +150,11 @@
               <item name="rails_app.git" type="b2602c69:ProjectViewProjectNode" />
               <item name="rails_app.git" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rails_app.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rails_app.git" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -148,7 +163,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="RemoteServers" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -322,7 +337,9 @@
       <workItem from="1532372243725" duration="2807000" />
       <workItem from="1532375774833" duration="151000" />
       <workItem from="1532375986880" duration="1763000" />
-      <workItem from="1532377906984" duration="2459000" />
+      <workItem from="1532377906984" duration="4975000" />
+      <workItem from="1532383153355" duration="2057000" />
+      <workItem from="1532385313702" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="No mac">
       <created>1532374270502</created>
@@ -331,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532374270502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make app production ready">
+      <created>1532380596337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532380596338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19568000" />
+    <option name="totallyTimeSpent" value="24416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,18 +374,18 @@
     <frame x="985" y="23" width="935" height="647" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295688" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5050392" side_tool="true" weight="0.32771537" />
-      <window_info active="true" anchor="bottom" id="Application Servers" visible="true" weight="0.32958803" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50839865" side_tool="true" visible="true" weight="0.3576779" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32958803" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4949608" weight="0.32771537" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295688" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4949608" weight="0.66853935" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.23516238" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.38090348" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4949608" weight="0.32771537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49160135" visible="true" weight="0.3576779" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.24524076" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3801498" />
       <window_info anchor="right" id="Database" order="3" weight="0.34266517" />
       <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.24300112" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -369,6 +393,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32958803" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -384,10 +409,53 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="No mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="No mac" />
+    <MESSAGE value="Make app production ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make app production ready" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -540,7 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="126">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
@@ -552,15 +620,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="84">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b3885ebc-d455-4e17-a41d-9cba2ffa705f/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        <state relative-caret-position="152">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
         </state>
       </provider>
     </entry>
