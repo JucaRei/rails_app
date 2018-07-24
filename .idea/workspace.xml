@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95623e2c-8534-40b7-9da8-6982c0dc46e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,10 +56,15 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="1403">
+              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/development.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
@@ -114,8 +118,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/boot.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b3885ebc-d455-4e17-a41d-9cba2ffa705f/console.sql" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.ruby-version" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -157,6 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,6 +374,10 @@
       <workItem from="1532397266934" duration="3044000" />
       <workItem from="1532400495987" duration="166000" />
       <workItem from="1532400778451" duration="157000" />
+      <workItem from="1532402576151" duration="713000" />
+      <workItem from="1532403368854" duration="578000" />
+      <workItem from="1532405054025" duration="1062000" />
+      <workItem from="1532406844720" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="No mac">
       <created>1532374270502</created>
@@ -413,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532399865817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="arrumando postgree">
+      <created>1532402754831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532402754832</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33131000" />
+    <option name="totallyTimeSpent" value="35889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,25 +445,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="23" width="935" height="647" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.42105263" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771537" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.3801498" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5027996" side_tool="true" weight="0.3576779" />
-      <window_info anchor="right" id="Database" order="3" weight="0.34266517" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5050392" side_tool="true" weight="0.32771537" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="13" sideWeight="0.4994401" visible="true" weight="0.32958803" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49720046" weight="0.32771537" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4949608" weight="0.32771537" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493841" weight="0.32771537" />
-      <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.24300112" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4949608" weight="0.3576779" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.31690928" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3801498" />
+      <window_info anchor="right" id="Database" order="3" weight="0.34266517" />
+      <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.24300112" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Application Servers" order="13" sideWeight="0.4994401" visible="true" weight="0.32958803" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -458,6 +472,40 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="heroku/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -471,7 +519,8 @@
     <MESSAGE value="mudando o sdk" />
     <MESSAGE value="tirando sqlite" />
     <MESSAGE value="tirando sqlite a" />
-    <option name="LAST_COMMIT_MESSAGE" value="tirando sqlite a" />
+    <MESSAGE value="arrumando postgree" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrumando postgree" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -774,13 +823,6 @@
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -791,10 +833,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-4339" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider editor-type-id="text-editor" />
