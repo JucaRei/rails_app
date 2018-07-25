@@ -56,7 +56,7 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="18" parent="7" name="título">
+    <column id="18" parent="7" name="titulo">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>

@@ -4,6 +4,7 @@
     <list default="true" id="95623e2c-8534-40b7-9da8-6982c0dc46e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3885ebc-d455-4e17-a41d-9cba2ffa705f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b3885ebc-d455-4e17-a41d-9cba2ffa705f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/artigos.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/artigos.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,21 +56,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="artigos.rb" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="artigos.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/artigos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="92">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -147,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -396,7 +388,8 @@
       <workItem from="1532450924605" duration="1909000" />
       <workItem from="1532453828811" duration="1630000" />
       <workItem from="1532478245372" duration="2767000" />
-      <workItem from="1532539509452" duration="4097000" />
+      <workItem from="1532539509452" duration="4448000" />
+      <workItem from="1532544054999" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="No mac">
       <created>1532374270502</created>
@@ -454,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532407314803</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="db">
+      <created>1532543702129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532543702129</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46622000" />
+    <option name="totallyTimeSpent" value="48911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,13 +474,13 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771537" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5050392" side_tool="true" weight="0.32771537" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.506159" side_tool="true" weight="0.3576779" />
       <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.4994401" weight="0.32958803" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4949608" weight="0.32771537" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493841" weight="0.32771537" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4949608" visible="true" weight="0.3576779" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.29787233" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.493841" visible="true" weight="0.3576779" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.30459127" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3801498" />
       <window_info anchor="right" id="Database" order="3" weight="0.34266517" />
       <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.24300112" />
@@ -496,6 +496,30 @@
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32958803" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3801498" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493841" weight="0.32771537" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.30459127" />
+      <window_info id="Structure" order="1" sideWeight="0.5010267" side_tool="true" weight="0.24300112" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32771537" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.34266517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.493841" visible="true" weight="0.3576779" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.506159" side_tool="true" weight="0.3576779" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4949608" weight="0.32771537" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32958803" />
+      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.4994401" weight="0.32958803" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32982087" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -548,7 +572,8 @@
     <MESSAGE value="tirando sqlite a" />
     <MESSAGE value="arrumando postgree" />
     <MESSAGE value="heroku plugin fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku plugin fixed" />
+    <MESSAGE value="db" />
+    <option name="LAST_COMMIT_MESSAGE" value="db" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -786,8 +811,8 @@
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor" />
@@ -837,6 +862,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -853,15 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/artigos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="92">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
         </state>
       </provider>
     </entry>
