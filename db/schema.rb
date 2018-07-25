@@ -12,9 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2018_07_25_175916) do
 
-  create_table "artigos", force: :cascade do |t|
-    t.string "titulo"
-    t.text "descricao"
+  create_table "articles", force: :cascade do |t|
+    t.string "title"
+    t.text "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -12,7 +12,7 @@
     <collation id="4" parent="1" name="NOCASE"/>
     <collation id="5" parent="1" name="RTRIM"/>
     <table id="6" parent="2" name="ar_internal_metadata"/>
-    <table id="7" parent="2" name="artigos"/>
+    <table id="7" parent="2" name="articles"/>
     <table id="8" parent="2" name="schema_migrations"/>
     <table id="9" parent="2" name="sqlite_master">
       <System>1</System>
@@ -56,11 +56,11 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="18" parent="7" name="titulo">
+    <column id="18" parent="7" name="title">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="19" parent="7" name="descricao">
+    <column id="19" parent="7" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
