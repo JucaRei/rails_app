@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get 'pages/about', to: 'pages#about'
 
-  resources :articles
+  resources :articles     #cria todos os recursos de articles (get , post, put ,delete, etc)
 end
